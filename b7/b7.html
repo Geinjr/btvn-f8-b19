@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bảng Cửu Chương</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 10px;
+                margin-top: 20px;
+            }
+            .table {
+                padding: 10px;
+                box-sizing: border-box;
+                border: 1px solid #ddd;
+                background-color: #f9f9f9;
+                text-align: center;
+            }
+            h3 {
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bảng Cửu Chương</h1>
+        <div class="grid-container" id="multiplication"></div>
+
+        <script src="b7.js"></script>
+    </body>
+</html>
